@@ -1,7 +1,9 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
   reactStrictMode: true,
-  assetPrefix: '/find-auto/',
+  assetPrefix: process.env.NODE_ENV === "production" ? '/find-auto/' : '',
+  basePath: process.env.NODE_ENV === "production" ? '/find-auto' : '',
+  
 }
 
 module.exports = nextConfig
