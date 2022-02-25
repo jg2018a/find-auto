@@ -13,10 +13,7 @@
 
 # production
 /build
-
-# gh-pages
-out
-
+/out
 
 # misc
 .DS_Store
