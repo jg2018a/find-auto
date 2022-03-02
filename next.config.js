@@ -1,8 +1,11 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
-  reactStrictMode: true,
-  assetPrefix: process.env.NODE_ENV === "production" ? '/find-auto/' : '',
-  basePath: process.env.NODE_ENV === "production" ? '/find-auto' : '',
+  // reactStrictMode: true,
+  // assetPrefix: process.env.NODE_ENV === "production" ? '/find-auto/' : '',
+  // basePath: process.env.NODE_ENV === "production" ? '/find-auto' : '',
+
+  basePath:  '/find-auto',
+  assetPrefix: '/find-auto/',
   
 }
 
